@@ -1,15 +1,18 @@
 <template>
-  <SessionBanner
-    img-url="https://ourworldindata.org/uploads/2021/01/data_explorer-featured-768x404.png"
-    title="Recent Situation"
-    subtitle=""/>
 
   <div>
-    <h4>[MAP] Green house gas emission (per capita)</h4>
+    <h3>Global CO<sub>2</sub> emission and carbon sinks</h3>
+    <img src="img/essd2021_Global_Sources_and_Sinks.png" width="50vw" alt="essd2021_Global_Sources_and_Sinks.png">
   </div>
 
   <div>
-    <h4>[multi line chart] Emission type</h4>
+    <h3>Green house gas emission</h3>
+    <h4>[MAP] Green house gas emission in countries and regions (per capita / total, 2000-2020)</h4>
+  </div>
+
+  <div>
+    <h3>Emission types</h3>
+    <h4>[multi line chart] Emission types</h4>
   </div>
 
 
@@ -18,12 +21,9 @@
 
 <script>
 
-import SessionBanner from "components/util/SessionBanner";
-
 export default {
   name: "RecentSituation",
   components: {
-    SessionBanner
   }
 }
 </script>
