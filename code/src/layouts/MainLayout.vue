@@ -6,20 +6,42 @@
         <q-btn dense flat round icon="menu" @click="left = !left" />
 
         <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-          </q-avatar>
-          Carbon Neutrality -- Where are we
+          <q-icon class="text-dark q-ma-md-lg" size="70px">
+            <img
+              src="icons/carbon-neutral.png"
+              style="width: 50px; height: 50px"
+            />
+          </q-icon>
+
+          Carbon Neutrality -- where are we on the way to it?
+
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
+    <!-- Left menu -->
     <q-drawer v-model="left" side="left" overlay elevated>
-      <!-- drawer content -->
+      <!-- TODO: drawer content -->
     </q-drawer>
 
-    <q-page-container>
-      <router-view />
+    <!-- Main content -->
+    <q-page-container style="height: 100vh; text-align: center">
+      <IndexPage />
+
+      <!-- place QPageScroller at end of page -->
+      <q-page-scroller
+        position="bottom-right"
+        :scroll-offset="150"
+        :offset="[18, 18]"
+      >
+        <q-btn
+          fab
+          icon="keyboard_arrow_up"
+          background="rgba(39, 155, 72, 0.5)"
+          style="z-index: 100"
+        />
+      </q-page-scroller>
+
     </q-page-container>
 
   </q-layout>
@@ -29,13 +51,13 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
-// import EssentialLink from 'components/EssentialLink.vue'
+import IndexPage from "pages/IndexPage";
 
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    // EssentialLink
+    IndexPage
   },
 
   data () {
@@ -57,3 +79,6 @@ export default defineComponent({
   }
 })
 </script>
+
+<style>
+</style>
