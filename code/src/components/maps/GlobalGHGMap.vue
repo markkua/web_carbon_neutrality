@@ -105,15 +105,18 @@ export default {
       var data_steps = this.data_steps_dict[this.emission_type + '_' + this.total_or_per_cap]
       var values = [
         ` [0, ${data_steps[0]})`,
+        ` [${data_steps[0]}, ${data_steps[1]})`,
         ` [${data_steps[1]}, ${data_steps[2]})`,
         ` [${data_steps[2]}, ${data_steps[3]})`,
         ` [${data_steps[3]}, ${data_steps[4]})`,
         ` [${data_steps[4]}, ${data_steps[5]})`,
         ` [${data_steps[5]}, ${data_steps[6]})`,
-        ` ${data_steps[6]} +`,
+        ` [${data_steps[6]}, ${data_steps[7]})`,
+        ` ${data_steps[7]} +`,
         " No data",
       ];
       var colors = this.color_stairs;
+      colors.push("white")
 
       this.legend_items = [];
       for (var i = 0; i < values.length; i++) {
@@ -150,7 +153,9 @@ export default {
           data_steps[5],
           color_stairs[6],
           data_steps[6],
-          color_stairs[7]
+          color_stairs[7],
+          data_steps[7],
+          color_stairs[8]
         ],
       ]);
       console.info("update color: " + this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue)
@@ -312,7 +317,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
   //   padding-left: 20px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   line-height: 20px;
-  height: 360px;
+  height: 400px;
   //margin-bottom: 0px;
   width: 250px;
 }
