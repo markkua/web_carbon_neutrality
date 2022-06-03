@@ -1,6 +1,6 @@
 import json
 from typing import List
-
+import math
 import pandas as pd
 
 """
@@ -90,7 +90,8 @@ for i, feature in enumerate(world_boundary_json['features']):
         # assign data
         if iso in emission_df[ISO_FILED_NAME].unique() and year in country_df[YEAR_FIELD_NAME].to_list():
             for from_field, to_field in field_correspondence.items():
-                feature['properties'][f'{to_field}_{year}'] = country_df[(country_df[YEAR_FIELD_NAME] == year)][from_field].values[0]
+                value = country_df[(country_df[YEAR_FIELD_NAME] == year)][from_field].values[0]
+                feature['properties'][f'{to_field}_{year}'] = value if not math.isnan(value) else None
             matched_iso_dict[year].append(iso)
         else:
             for from_field, to_field in field_correspondence.items():
