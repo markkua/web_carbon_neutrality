@@ -71,6 +71,7 @@
 </template>
 <script>
 import mapboxgl from "mapbox-gl";
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 export default {
   name: "GlobalGHGMap",
@@ -202,69 +203,82 @@ export default {
       this.updateData();
 
 
-      //
-      // // Create a popup, but don't add it to the map yet.
-      // var popup = new mapboxgl.Popup({
-      //   closeButton: false,
-      //   closeOnClick: false,
-      // });
-      // // Change the cursor to a pointer when the mouse is over the states layer.
-      // // Update popup window on hover.
-      // map.on("mousemove", "countries-layer", (e) => {
-      //   map.getCanvas().style.cursor = "pointer";
-      //   var popupInfo;
-      //   if (
-      //     e.features[0].properties[this.total_or_per_cap + "_" + this.sliderValue] !==
-      //     "null"
-      //   ) {
-      //     popupInfo =
-      //       "<strong>" +
-      //       e.features[0].properties.name +
-      //       "</strong>" +
-      //       " " +
-      //       this.total_or_per_cap +
-      //       " in " +
-      //       this.sliderValue +
-      //       ":" +
-      //       "<br />" +
-      //       e.features[0].properties[
-      //       this.total_or_per_cap + "_" + this.sliderValue
-      //         ].toFixed(2) +
-      //       " Million USD";
-      //   } else {
-      //     popupInfo =
-      //       "<strong>" +
-      //       e.features[0].properties.name +
-      //       "</strong>" +
-      //       ": No data";
-      //   }
-      //   popup.setLngLat(e.lngLat).setHTML(popupInfo).addTo(map);
-      //   if (e.features.length > 0) {
-      //     if (hoveredStateId !== null) {
-      //       map.setFeatureState(
-      //         { source: "countries", id: hoveredStateId },
-      //         { hover: false }
-      //       );
-      //     }
-      //     hoveredStateId = e.features[0].id;
-      //     map.setFeatureState(
-      //       { source: "countries", id: hoveredStateId },
-      //       { hover: true }
-      //     );
-      //   }
-      // });
-      // // Change the cursor back to a pointer and remove popup when the mouse leaves.
-      // map.on("mouseleave", "countries-layer", function () {
-      //   map.getCanvas().style.cursor = "";
-      //   popup.remove();
-      //   if (hoveredStateId !== null) {
-      //     map.setFeatureState(
-      //       { source: "countries", id: hoveredStateId },
-      //       { hover: false }
-      //     );
-      //   }
-      //   hoveredStateId = null;
-      // });
+
+      // Create a popup, but don't add it to the map yet.
+      var popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+      });
+      // Change the cursor to a pointer when the mouse is over the states layer.
+      // Update popup window on hover.
+      map.on("mousemove", "countries-layer", (e) => {
+        map.getCanvas().style.cursor = "pointer";
+        var popupInfo;
+
+        var _type_text = this.total_or_per_cap
+        if ('per_capita' === _type_text) {
+          _type_text = "per capita"
+        }
+        var _emission_text = this.emission_type
+        if ('co2' === _emission_text) {
+          _emission_text = "CO<sub>2</sub>"
+        } else {
+          _emission_text = "GHGs"
+        }
+
+        if (
+          e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue] !==
+          "null"
+        ) {
+          popupInfo =
+            "<strong>" +
+            e.features[0].properties.name +
+            "</strong> " +
+            "<br/>" +
+            _type_text + " " +
+            _emission_text + " emission" +
+            " in " +
+            this.sliderValue +
+            ":" +
+            "<br />" +
+            e.features[0].properties[
+            this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue
+              ].toFixed(3) +
+            this.emission_unit;
+        } else {
+          popupInfo =
+            "<strong>" +
+            e.features[0].properties.name +
+            "</strong>" +
+            ": No data";
+        }
+        popup.setLngLat(e.lngLat).setHTML(popupInfo).addTo(map);
+        if (e.features.length > 0) {
+          if (hoveredStateId !== null) {
+            map.setFeatureState(
+              { source: "countries", id: hoveredStateId },
+              { hover: false }
+            );
+          }
+          hoveredStateId = e.features[0].id;
+          map.setFeatureState(
+            { source: "countries", id: hoveredStateId },
+            { hover: true }
+          );
+        }
+      });
+      // Change the cursor back to a pointer and remove popup when the mouse leaves.
+      map.on("mouseleave", "countries-layer", function () {
+        map.getCanvas().style.cursor = "";
+        popup.remove();
+        if (hoveredStateId !== null) {
+          map.setFeatureState(
+            { source: "countries", id: hoveredStateId },
+            { hover: false }
+          );
+        }
+        hoveredStateId = null;
+      });
     });
 
     // Disable map zoom in/out using scroll
@@ -279,8 +293,6 @@ export default {
     this.map = map;
   },
 };
-
-import 'mapbox-gl/dist/mapbox-gl.css';
 </script>
 
 <style scoped lang="scss">
