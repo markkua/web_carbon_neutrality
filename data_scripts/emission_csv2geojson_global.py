@@ -16,7 +16,7 @@ to_remove_ls = ['Aksai Chin', 'Hong Kong', 'Macao', 'Taiwan', 'Arunachal Pradesh
 world_geojson_filename = "../pre_processed_data/boundary/world-administrative-boundaries_China_uncorrected.geojson"
 china_geojson_filename = "../pre_processed_data/boundary/China_3.geojson"
 # area_csv_filename = "../data/source/CountryArea/API_AG.LND.TOTL.K2_DS2_en_csv_v2_2254009.csv"
-output_geojson_filename = "../pre_processed_data/ghg/co2_ghg_country_2000-2020.csv"
+output_geojson_filename = "../pre_processed_data/ghg/co2_ghg_country_2000-2020.geojson"
 
 # source data definition
 source_data_filename = "../pre_processed_data/ghg/owid-co2-data_filtered.csv"

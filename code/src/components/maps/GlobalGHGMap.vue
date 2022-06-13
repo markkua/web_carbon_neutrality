@@ -77,7 +77,7 @@ export default {
   name: "GlobalGHGMap",
   data() {
     return {
-      data_dir: "data/co2_ghg_country_2000-2020.csv",
+      data_dir: "data/co2_ghg_country_2000-2020.geojson",
       total_or_per_cap: "per_capita",  // per_capita, total
       emission_type: "co2",
       emission_unit: "million ton",
