@@ -9,7 +9,8 @@
 
   <div>
     <h3>Green house gas emission</h3>
-    <h4>[MAP] Green house gas emission in countries and regions (per capita / total, 2000-2020)</h4>
+
+    <h4>Green house gas emission from 2000-2020</h4>
 
     <GlobalGHGMap/>
 
@@ -39,5 +40,7 @@ export default {
 
 
 <style scoped>
-
+h4 {
+  margin-bottom: 0;
+}
 </style>
