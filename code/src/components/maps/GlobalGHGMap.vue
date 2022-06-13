@@ -97,6 +97,12 @@ export default {
         "co2_total": [20, 50, 100, 200, 500, 1000, 2000, 5000],
         "ghg_per_capita": [2.5, 5, 7.5, 10, 15, 20, 25, 30],
         "ghg_total": [20, 50, 100, 200, 500, 1000, 2000, 5000]
+      },
+      unit_dict: {
+        "co2_per_capita": "ton",
+        "co2_total": "million ton",
+        "ghg_per_capita": "ton",
+        "ghg_total": "million ton"
       }
     };
   },
@@ -125,6 +131,9 @@ export default {
         var color = colors[i];
         this.legend_items.push({value, color});
       }
+
+      // update unit
+      this.emission_unit = this.unit_dict[this.emission_type + '_' + this.total_or_per_cap]
     },
 
     updateData: function () { // TODO
@@ -243,7 +252,7 @@ export default {
             "<br />" +
             e.features[0].properties[
             this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue
-              ].toFixed(3) +
+              ].toFixed(3) + " " +
             this.emission_unit;
         } else {
           popupInfo =
