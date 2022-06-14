@@ -236,30 +236,14 @@ export default {
         }
 
         if (
-          e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue] !==
-          "null"
+          !isNaN(e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue])
         ) {
-          popupInfo =
-            "<strong>" +
-            e.features[0].properties.name +
-            "</strong> " +
-            "<br/>" +
-            _type_text + " " +
-            _emission_text + " emission" +
-            " in " +
-            this.sliderValue +
-            ":" +
-            "<br />" +
-            e.features[0].properties[
-            this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue
-              ].toFixed(3) + " " +
-            this.emission_unit;
+          popupInfo = "<strong>" + e.features[0].properties.name + "</strong> " + "<br/>" +
+            _type_text + " " + _emission_text + " emission" + " in " + this.sliderValue + ":" + "<br />" +
+            e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue].toFixed(3)
+            + " " + this.emission_unit;
         } else {
-          popupInfo =
-            "<strong>" +
-            e.features[0].properties.name +
-            "</strong>" +
-            ": No data";
+          popupInfo = "<strong>" + e.features[0].properties.name + "</strong>" + ": No data";
         }
         popup.setLngLat(e.lngLat).setHTML(popupInfo).addTo(map);
         if (e.features.length > 0) {

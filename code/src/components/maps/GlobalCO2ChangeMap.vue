@@ -5,23 +5,23 @@
 
     <div class="map-overlay" id="legend">
       <div class="q-pa-xm">
-<!--        <div class="text-h6">Global GHG emission, 2005-2020</div>-->
-<!--        <div class="q-gutter-sm">-->
-<!--          <q-radio-->
-<!--            v-model="emission_type"-->
-<!--            val="co2"-->
-<!--            label="CO2"-->
-<!--            color="light-green-14"-->
-<!--            v-on:click.enter="updateData"-->
-<!--          ></q-radio>-->
-<!--          <q-radio-->
-<!--            v-model="emission_type"-->
-<!--            val="ghg"-->
-<!--            label="All GHGs"-->
-<!--            color="teal"-->
-<!--            v-on:click.enter="updateData"-->
-<!--          ></q-radio>-->
-<!--        </div>-->
+        <!--        <div class="text-h6">Global GHG emission, 2005-2020</div>-->
+        <!--        <div class="q-gutter-sm">-->
+        <!--          <q-radio-->
+        <!--            v-model="emission_type"-->
+        <!--            val="co2"-->
+        <!--            label="CO2"-->
+        <!--            color="light-green-14"-->
+        <!--            v-on:click.enter="updateData"-->
+        <!--          ></q-radio>-->
+        <!--          <q-radio-->
+        <!--            v-model="emission_type"-->
+        <!--            val="ghg"-->
+        <!--            label="All GHGs"-->
+        <!--            color="teal"-->
+        <!--            v-on:click.enter="updateData"-->
+        <!--          ></q-radio>-->
+        <!--        </div>-->
 
         <div class="q-gutter-sm">
           <q-radio
@@ -42,7 +42,7 @@
 
       </div>
 
-<!--      <div>Carbon dioxide equivalents</div>-->
+      <!--      <div>Carbon dioxide equivalents</div>-->
       <div> ({{ emission_unit }})</div>
 
       <div style="text-align: left" v-for="item in legend_items" :key="item">
@@ -166,7 +166,6 @@ export default {
           color_stairs[8]
         ],
       ]);
-      console.info("update color: " + this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue)
     },
   },
 
@@ -210,7 +209,6 @@ export default {
       this.updateData();
 
 
-
       // Create a popup, but don't add it to the map yet.
       var popup = new mapboxgl.Popup({
         closeButton: false,
@@ -232,45 +230,30 @@ export default {
         } else {
           _emission_text = "GHGs"
         }
-
         if (
-          e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue] !==
-          "null"
+          !isNaN(e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue])
         ) {
           popupInfo =
-            "<strong>" +
-            e.features[0].properties.name +
-            "</strong> " +
-            "<br/>" +
-            _type_text + " " +
-            _emission_text + " emission" +
-            " in " +
-            this.sliderValue +
-            ":" +
-            "<br />" +
-            e.features[0].properties[
-            this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue
-              ].toFixed(3) + " " +
-            this.emission_unit;
+            "<strong>" + e.features[0].properties.name + "</strong> " + "<br/>" +
+            _type_text + " " + _emission_text + " emission" + " in " + this.sliderValue + ":" + "<br />"
+            + e.features[0].properties[this.emission_type + "_" + this.total_or_per_cap + "_" + this.sliderValue].toFixed(3)
+            + " " + this.emission_unit;
         } else {
           popupInfo =
-            "<strong>" +
-            e.features[0].properties.name +
-            "</strong>" +
-            ": No data";
+            "<strong>" + e.features[0].properties.name + "</strong>" + ": No data";
         }
         popup.setLngLat(e.lngLat).setHTML(popupInfo).addTo(map);
         if (e.features.length > 0) {
           if (hoveredStateId !== null) {
             map.setFeatureState(
-              { source: "countries", id: hoveredStateId },
-              { hover: false }
+              {source: "countries", id: hoveredStateId},
+              {hover: false}
             );
           }
           hoveredStateId = e.features[0].id;
           map.setFeatureState(
-            { source: "countries", id: hoveredStateId },
-            { hover: true }
+            {source: "countries", id: hoveredStateId},
+            {hover: true}
           );
         }
       });
@@ -280,8 +263,8 @@ export default {
         popup.remove();
         if (hoveredStateId !== null) {
           map.setFeatureState(
-            { source: "countries", id: hoveredStateId },
-            { hover: false }
+            {source: "countries", id: hoveredStateId},
+            {hover: false}
           );
         }
         hoveredStateId = null;
