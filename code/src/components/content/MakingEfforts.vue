@@ -8,7 +8,8 @@
   </div>
 
   <h3>More clean energy</h3>
-  <h4>[map]  Clean energy change (in percentage) of countries and regions</h4>
+  <h4>Clean energy growth</h4>
+  <GlobalCleanEnergyChange />
 
   <h3>Less deforestation</h3>
   <h4>[Line chart] deforestation and reforestation (copy from deforestation project)</h4>
@@ -18,11 +19,13 @@
 
 <script>
 import GlobalCO2ChangeMap from "components/maps/GlobalCO2ChangeMap";
+import GlobalCleanEnergyChange from "components/maps/GlobalCleanEnergyChange";
 
 export default {
   name: "MakingEfforts",
   components: {
     GlobalCO2ChangeMap,
+    GlobalCleanEnergyChange,
   }
 }
 </script>
