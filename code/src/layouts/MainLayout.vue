@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header elevated class="bg-primary text-white">
+    <q-header elevated class="text-white bg-teal-7">
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="left = !left" />
 
@@ -25,7 +25,7 @@
     </q-drawer>
 
     <!-- Main content -->
-    <q-page-container style="height: 100vh; text-align: center">
+    <q-page-container style="height: 100vh; text-align: center; padding-top: 0">
       <IndexPage />
 
       <!-- place QPageScroller at end of page -->

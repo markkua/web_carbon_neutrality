@@ -73,12 +73,12 @@
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
-      <span style="color: #505050; font-size: 120%">Images: </span>
+      <span style="color: #505050; font-size: 120%">Graphic: </span>
       <div class="text-body2">
         Images:
 <!--        <a href="https://www.flaticon.com/">Flaticon</a>,-->
         <a href="https://www.pexels.com/">Pexels</a>,
-<!--        <a href="https://unsplash.com/">Unsplash</a>-->
+        <a href="https://unsplash.com/">Unsplash</a>
       </div>
       <div class="text-body2">
         Icons:
@@ -108,7 +108,7 @@ export default {
 
   data() {
     return {
-      show: false,
+      show: true,
     };
   },
   methods: {
