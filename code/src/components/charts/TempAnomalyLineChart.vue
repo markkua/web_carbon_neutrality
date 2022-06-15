@@ -4,7 +4,7 @@
 
 <script>
 import * as echarts from "echarts";
-import loaded_data from "../../../public/data/temperature_anomaly_1990-2019.json";
+import loaded_data from "../../../public/data/temperature_anomaly_1850-2019.json";
 
 export default {
   name: "TempAnomalyLineChart",
@@ -16,7 +16,8 @@ export default {
       years: [],
       temperature: {},
       series: [],
-      legends: []
+      legends: [],
+      line_width: {'Median': 2, 'Upper': 1, 'Lower': 1}
     };
   },
   methods: {
@@ -34,6 +35,12 @@ export default {
           tooltip: {
             valueFormatter: value => value + '°C'
           },
+          showSymbol: false,
+          lineStyle: {
+            normal: {
+              width: this.line_width[key]
+            }
+          }
         });
         this.legends.push(key);
       }
