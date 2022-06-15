@@ -26,16 +26,16 @@
         <div class="q-gutter-sm">
           <q-radio
             v-model="total_or_percent"
-            val="percentage"
-            label="Percentage"
-            color="light-green-14"
+            val="total"
+            label="Total amount"
+            color="teal"
             v-on:click.enter="updateData"
           ></q-radio>
           <q-radio
             v-model="total_or_percent"
-            val="total"
-            label="Total amount"
-            color="teal"
+            val="percentage"
+            label="Percentage"
+            color="light-green-14"
             v-on:click.enter="updateData"
           ></q-radio>
         </div>
@@ -78,7 +78,7 @@ export default {
   data() {
     return {
       data_dir: "data/renewable_change_2000-2020.geojson",
-      total_or_percent: "percentage",
+      total_or_percent: "total",
       emission_type: "renewable",
       emission_unit: "TWh",
       map: "",
@@ -181,7 +181,7 @@ export default {
     var map = new mapboxgl.Map({
       container: "globalRenewableChangeMap",
       style: this.style_url,
-      center: [72.937482, 37.544023],
+      center: [60, 30.544023],
       zoom: 3,
       maxBounds: bounds, // Sets bounds as max
     });

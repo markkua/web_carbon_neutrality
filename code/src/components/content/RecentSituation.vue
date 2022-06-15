@@ -4,6 +4,7 @@
   <div>
     <h3>Global CO<sub>2</sub> emission and carbon sinks</h3>
     <img src="img/essd2021_Global_Sources_and_Sinks.png" width="50vw" alt="essd2021_Global_Sources_and_Sinks.png">
+    (measuring or estimating carbon sink is still a research topic)
   </div>
   </LimitWidth>
 
