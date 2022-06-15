@@ -3,7 +3,7 @@
 
     <q-header elevated class="text-white bg-teal-7">
       <q-toolbar>
-        <q-btn dense flat round icon="menu" @click="left = !left" />
+<!--        <q-btn dense flat round icon="menu" @click="left = !left" />-->
 
         <q-toolbar-title>
           <q-icon class="text-dark q-ma-md-lg" size="70px">
@@ -20,9 +20,9 @@
     </q-header>
 
     <!-- Left menu -->
-    <q-drawer v-model="left" side="left" overlay elevated>
-      <!-- TODO: drawer content -->
-    </q-drawer>
+<!--    <q-drawer v-model="left" side="left" overlay elevated>-->
+       TODO: drawer content
+<!--    </q-drawer>-->
 
     <!-- Main content -->
     <q-page-container style="height: 100vh; text-align: center; padding-top: 0">
