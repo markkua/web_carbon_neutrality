@@ -89,9 +89,9 @@ export default {
       sliderValue: "2020",
       // year: "2020",
       color_stairs: [
-        "#84fab0", "#08BAAD", "#6DC6A6",
-        "#9FD0A8", "#C6DBB4", "#F8DCBC",
-        "#F3AE7D", "#F19563", "#EF7A4E",
+        "#64dd17", "#76ff03", "#b2ff59",
+        "#ccff90", "#dcedc8", "#F8DCBC",
+        "#ffab40", "#ff6d00", "#e65100",
       ],
       data_steps_dict: {
         "co2_change_per_capita": [-5, -3, -1.5, -0.5, 0, 0.5, 1.5, 3],
@@ -109,7 +109,7 @@ export default {
       var data_steps = this.data_steps_dict[this.emission_type + '_' + this.total_or_per_cap]
       console.log()
       var values = [
-        ` [0, ${data_steps[0]})`,
+        ` < ${data_steps[0]}`,
         ` [${data_steps[0]}, ${data_steps[1]})`,
         ` [${data_steps[1]}, ${data_steps[2]})`,
         ` [${data_steps[2]}, ${data_steps[3]})`,
@@ -117,7 +117,7 @@ export default {
         ` [${data_steps[4]}, ${data_steps[5]})`,
         ` [${data_steps[5]}, ${data_steps[6]})`,
         ` [${data_steps[6]}, ${data_steps[7]})`,
-        ` ${data_steps[7]} +`,
+        ` > ${data_steps[7]}`,
         " No data",
       ];
       var colors = this.color_stairs;

@@ -88,9 +88,9 @@ export default {
       sliderValue: "2018",
       year: "2018",
       color_stairs: [
-        "#84fab0", "#08BAAD", "#6DC6A6",
-        "#9FD0A8", "#C6DBB4", "#F8DCBC",
-        "#F3AE7D", "#F19563", "#EF7A4E",
+        "#fff176", "#ffeb3b", "#ffca28",
+        "#ffb300", "#ff8f00", "#fb8c00",
+        "#f57c00", "#e64a19", "#bf360c",
       ],
       data_steps_dict: {
         "co2_per_capita": [2.5, 5, 7.5, 10, 15, 20, 25, 30],
@@ -184,7 +184,7 @@ export default {
     var map = new mapboxgl.Map({
       container: "globalMap",
       style: "mapbox://styles/bingxinke/cl2ezdgbj000z14rzttzokoug",
-      center: [0, 10],
+      center: [10, 30],
       zoom: 1.8,
       maxBounds: bounds, // Sets bounds as max
     });

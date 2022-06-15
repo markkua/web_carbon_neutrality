@@ -89,9 +89,9 @@ export default {
       sliderValue: "2020",
       // year: "2020",
       color_stairs: [  // TODO: reverse color, TODO: give 1 more step for > 0
-        "#84fab0", "#08BAAD", "#6DC6A6",
-        "#9FD0A8", "#C6DBB4", "#F8DCBC",
-        "#F3AE7D", "#F19563", "#EF7A4E",
+        "#fbc02d", "#ffeb3b", "#fff176",
+        "#fff9c4", "#bbdefb", "#90caf9",
+        "#42a5f5", "#1e88e5", "#1565c0",
       ],
       data_steps_dict: {
         "renewable_total": [-200, -100, -50, 0, 50, 100, 200, 300],
@@ -109,7 +109,7 @@ export default {
       var data_steps = this.data_steps_dict[this.emission_type + '_' + this.total_or_percent]
       console.log()
       var values = [
-        ` [0, ${data_steps[0]})`,
+        ` < ${data_steps[0]}`,
         ` [${data_steps[0]}, ${data_steps[1]})`,
         ` [${data_steps[1]}, ${data_steps[2]})`,
         ` [${data_steps[2]}, ${data_steps[3]})`,
@@ -117,7 +117,7 @@ export default {
         ` [${data_steps[4]}, ${data_steps[5]})`,
         ` [${data_steps[5]}, ${data_steps[6]})`,
         ` [${data_steps[6]}, ${data_steps[7]})`,
-        ` ${data_steps[7]} +`,
+        ` > ${data_steps[7]}`,
         " No data",
       ];
       var colors = this.color_stairs;
