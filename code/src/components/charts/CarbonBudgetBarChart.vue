@@ -86,40 +86,12 @@ export default {
       },
 
     });
+    
+    window.addEventListener("resize", function () {
+      //resize the bar chart according to the screen size
+      myChart.resize();
+    });
 
-    // var seriesList = this.processData();
-    // var legendList = Object.keys(gdp);
-    // var myChart = echarts.init(this.$refs["chart"]);
-    // var option;
-    // option = {
-    //   title: {
-    //     text: "Annual percent change of gross domestic product (GDP)",
-    //     subtext:
-    //       "Data from IMF World Economic Outlook Database. Value in 2021 is the forecast.",
-    //     left: "center",
-    //   },
-    //   legend: {
-    //     left: 100,
-    //     bottom: 10,
-    //     orient: "horizontal",
-    //     data: legendList,
-    //   },
-    //   tooltip: {
-    //     trigger: "axis",
-    //   },
-    //   xAxis: {
-    //     type: "category",
-    //   },
-    //   yAxis: {
-    //     type: "value",
-    //   },
-    //   series: seriesList,
-    // };
-    // option.xAxis["data"] = this.range(2005, 2021);
-    // myChart.setOption(option);
-    // window.addEventListener("resize", function () {
-    //   myChart.resize();
-    // });
   },
 
 }
