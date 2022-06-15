@@ -1,16 +1,8 @@
 <template>
   <div>
-
-    <h3>Impact of green house gasses</h3>
-    <div class=" row wrap justify-center">
-      <div style="width: 70%">
-        [Line chart] Temperature anomaly
-        <img src="img/anomaly.png" width="100%">
-      </div>
-    </div>
+    <!--    <h3>Global warming</h3>-->
     <div class="text-body2" style=" text-align: left; padding: 20px">
-      [Text: impact of global warming]
-      xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxx xxxxx
+      Impact of global warming: xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx
       xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxx xxxxx
       xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxx xxxxx
     </div>
@@ -21,6 +13,16 @@
       <div class="image_card">
         <img src="img/pexels-andrea-schettino-3923277.jpg" width="100%" alt="global warming">
       </div>
+    </div>
+
+    <h4>Main cause: green house gasses</h4>
+    <div class=" row wrap justify-center">
+      [Line chart] Temperature anomaly
+      <!--        <img src="img/anomaly.png" width="100%">-->
+      What is temperature anomaly.
+
+      <TempAnomalyLineChart/>
+
     </div>
 
 
@@ -78,10 +80,13 @@
 
 
 <script>
+import TempAnomalyLineChart from "components/charts/TempAnomalyLineChart";
 
 export default {
   name: "SessionIntroduction",
-  components: {}
+  components: {
+    TempAnomalyLineChart,
+  }
 }
 </script>
 
