@@ -1,42 +1,65 @@
 <template>
   <div>
-    <!--    <h3>Global warming</h3>-->
-    <div class="text-body2" style=" text-align: left; padding: 20px">
-      Impact of global warming: xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx
-      xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxx xxxxx
-      xxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxx xxxxxx xxxxx xxxxxxxxxxx xxxx xxxxxxxx xxxxxxxxxxx xxxxxxx xxxxx xxxxxx xxxxx
+    <h4>What is carbon neutralization</h4>
+    <div class="text-body1">
+      Carbon neutrality is a state of net-zero carbon dioxide emissions, meaning that any carbon dioxide released into
+      the atmosphere from human activities is balanced by an equivalent amount being removed.
+    </div>
+
+    <figure>
+      <img src="img/carbon_cycle_schematic.png" width="80%" alt="carbon cycle schematic">
+      <figcaption>Schematic representation of the overall perturbation of the global carbon cycle caused by
+        anthropogenic activities, averaged globally for the decade 2011–2020.
+        <a href="https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021">(source)</a>
+      </figcaption>
+    </figure>
+
+    <h4>Why carbon neutralization</h4>
+    <div class="text-body1">
+      Global warming, the gradual heating of Earth's surface, oceans and atmosphere, is caused by human activity,
+      primarily the burning of fossil fuels that pump carbon dioxide (CO<sub>2</sub>), methane and other greenhouse gases into the atmosphere.
+      <br />
+      <br />
+      Consequently, global sea level is rising as a consequence of glacial melt, melt of the ice sheets in Greenland and
+      Antarctica, and thermal expansion. Between 1993 and 2020, the rise increased over time, averaging 3.3 ± 0.3 mm per
+      year. Over the 21st century, the IPCC projects that in a very high emissions scenario the sea level could rise by 61–110 cm.
+      Increased ocean warmth is undermining and threatening to unplug Antarctic glacier outlets, risking a large melt of
+      the ice sheet and the possibility of a 2-meter sea level rise by 2100 under high emissions.
+      Climate change has led to decades of shrinking and thinning of the Arctic sea ice.
+      While ice-free summers are expected to be rare at 1.5 °C degrees of warming, they are set to occur once every three
+      to ten years at a warming level of 2 °C. Higher atmospheric CO<sub>2</sub> concentrations have led to changes in ocean chemistry.
+      An increase in dissolved CO<sub>2</sub> is causing oceans to acidify. In addition, oxygen levels are decreasing as oxygen is less
+      soluble in warmer water. Dead zones in the ocean, regions with very little oxygen, are expanding too.
     </div>
     <div class="row wrap justify-center items-start content-start">
       <div class="image_card">
-        <img src="img/pexels-andrea-schettino-3923277.jpg" width="100%" alt="global warming">
+        <img src="img/unsplash-melt_ice.jpg" height="100%" alt="global warming">
       </div>
       <div class="image_card">
-        <img src="img/pexels-andrea-schettino-3923277.jpg" width="100%" alt="global warming">
+        <img src="img/unsplash-extreme_weather.jpg" height="100%" alt="global warming">
       </div>
     </div>
 
-    <h4>Main cause: green house gasses</h4>
-    <div class=" row wrap justify-center">
-      [Line chart] Temperature anomaly
-      <!--        <img src="img/anomaly.png" width="100%">-->
-      What is temperature anomaly.
-
-      <TempAnomalyLineChart/>
-
+    <div class="text-body1">
+      The science shows clearly that in order to avert the worst impacts of climate change and preserve a livable planet,
+      global temperature increase needs to be limited to 1.5°C above pre-industrial levels.
+      Currently, the Earth is already about 1.1°C warmer than it was in the late 1800s, and emissions continue to rise.
+      To keep global warming to no more than 1.5°C  – as called for in
+      <a href="https://www.un.org/en/climatechange/paris-agreement">the Paris Agreement</a>
+      – emissions need to be reduced by 45% by 2030 and reach net zero by 2050.
     </div>
-
-
-    <h3>What is carbon neutralization</h3>
     <div>
-      [Text]
-      <img src="img/carbon_cycle_schematic.png" width="100%">
+      <h5 class="caption">Temperature anomaly 1850-2019</h5>
+      <TempAnomalyLineChart/>
     </div>
 
-    <h3>How to achieve carbon neutralization</h3>
+
+
+    <h4 class="caption">How to achieve carbon neutralization</h4>
     <div class=" row wrap justify-center items-start content-start">
       <div class="half_card">
         <h5>Reducing emissions</h5>
-        <div class="text-body2">
+        <div class="text-body1">
           Reducing carbon emissions can be done by moving towards energy sources and industry processes that produce
           less
           greenhouse gases,
@@ -55,7 +78,7 @@
       </div>
       <div class="half_card">
         <h5>Carbon offsetting</h5>
-        <div class="text-body2">
+        <div class="text-body1">
           Balancing carbon dioxide emissions with carbon offsets — the process of reducing or avoiding greenhouse gas
           emissions
           or removing carbon dioxide from the atmosphere to make up for emissions elsewhere.
@@ -74,8 +97,6 @@
       </div>
     </div>
   </div>
-
-
 </template>
 
 
@@ -94,21 +115,28 @@ export default {
 <style scoped>
 
 .half_card {
-  max-width: 500px;
+  max-width: max(500px, 50%);
   min-width: 20vw;
   padding: 20px;
 }
 
 .image_card {
-  width: 50%;
+  /*width: 50%;*/
   min-width: 300px;
-  max-width: 800px;
+  max-width: 100%;
   padding: 20px;
+  height: min(400px, 50vh);
+}
+img {
+  max-width: 90vw;
 }
 
-.text-body2 {
+.text-body1 {
   text-align: left;
 }
 
+.caption {
+  margin-bottom: 0;
+}
 
 </style>
