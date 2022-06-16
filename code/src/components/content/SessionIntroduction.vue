@@ -69,38 +69,62 @@
       <div class="half_card">
         <h5 class="caption">Reducing emissions</h5>
         <div class="text-body1">
-          Reducing carbon emissions can be done by moving towards energy sources and industry processes that produce
-          less greenhouse gases,
-          thereby transitioning to a low-carbon economy. Shifting towards the use of renewable energy such as wind,
-          geothermal, and solar power, as well as nuclear power reduces greenhouse gas emissions.
-          Although both renewable and non-renewable energy production produce carbon emissions in some form, renewable
-          sources produce negligible to almost zero carbon emissions. Transitioning to a low-carbon economy would also
-          mean
-          making changes to current industrial and agricultural processes to reduce carbon emissions, for example, diet
-          changes to livestock such as cattle can potentially reduce methane production by 40%. Carbon projects and
-          emissions trading are often used to reduce carbon emissions, and carbon dioxide can even sometimes be
-          prevented
-          from entering the atmosphere entirely (such as by carbon scrubbing).
-          <!--     TODO -->
+          Reducing green house gas emissions is the most straightforward and powerful measures towards carbon neutrality.
+          One of the strongest arguments for reducing greenhouse gas emissions is that it will often save money. For example:
+          <ul>
+            <li>
+              Limiting energy usage and emissions from transportation, as well as from buildings, equipment, animals and processes.
+            </li>
+            <li>
+              Obtaining electricity and other forms of energy from zero or low carbon energy sources.
+            </li>
+            <li>
+              Electrification: using electrical energy, ideally from non-emitting sources, rather than combustion.
+            </li>
+            <li>
+              ...
+            </li>
+          </ul>
+
+<!--          Reducing carbon emissions can be done by moving towards energy sources and industry processes that produce-->
+<!--          less greenhouse gases,-->
+<!--          thereby transitioning to a low-carbon economy. Shifting towards the use of renewable energy such as wind,-->
+<!--          geothermal, and solar power, as well as nuclear power reduces greenhouse gas emissions.-->
+<!--          Although both renewable and non-renewable energy production produce carbon emissions in some form, renewable-->
+<!--          sources produce negligible to almost zero carbon emissions. Transitioning to a low-carbon economy would also-->
+<!--          mean-->
+<!--          making changes to current industrial and agricultural processes to reduce carbon emissions, for example, diet-->
+<!--          changes to livestock such as cattle can potentially reduce methane production by 40%. Carbon projects and-->
+<!--          emissions trading are often used to reduce carbon emissions, and carbon dioxide can even sometimes be-->
+<!--          prevented-->
+<!--          from entering the atmosphere entirely (such as by carbon scrubbing).-->
         </div>
       </div>
       <div class="half_card">
         <h5 class="caption">Carbon offsetting</h5>
         <div class="text-body1">
-          Balancing carbon dioxide emissions with carbon offsets — the process of reducing or avoiding greenhouse gas
-          emissions
-          or removing carbon dioxide from the atmosphere to make up for emissions elsewhere.
-          If the total greenhouse gases emitted is equal to the total amount avoided or removed, then the two effects
-          cancel
-          each other out and the net emissions are 'neutral'.
-          <!--      TODO -->
-          Carbon sinks:
-          Carbon sinks are vast ecosystems that absorb CO2. They regulate the climate and stop global warming. As they
-          are
-          exploited, many are releasing their carbon stores.
-          Check <a
-          href="https://edition.cnn.com/videos/world/2020/12/17/carbon-sinks-explained-c2e-intl-lon-orig.cnn/video/playlists/call-to-earth/">
-          this video</a> for more details
+
+          The use of Carbon offsets aims to neutralize a certain volume of greenhouse gas emissions by funding projects
+          which should cause an equivalent reduction of greenhouse gas emissions somewhere else, such as tree planting.
+          Offsetting can be done by supporting a responsible carbon project, or by buying carbon offsets or carbon credits.
+          Carbon offsetting is also a tool for several local authorities in the world.
+<!--          -->
+<!--          Balancing carbon dioxide emissions with carbon offsets — the process of reducing or avoiding greenhouse gas-->
+<!--          emissions-->
+<!--          or removing carbon dioxide from the atmosphere to make up for emissions elsewhere.-->
+<!--          If the total greenhouse gases emitted is equal to the total amount avoided or removed, then the two effects-->
+<!--          cancel-->
+<!--          each other out and the net emissions are 'neutral'.-->
+<!--          &lt;!&ndash;      TODO &ndash;&gt;-->
+<!--          <br />-->
+<!--          Carbon sinks:-->
+<!--          Carbon sinks are vast ecosystems that absorb CO2. They regulate the climate and stop global warming. As they-->
+<!--          are-->
+<!--          exploited, many are releasing their carbon stores.-->
+
+<!--          Check <a-->
+<!--          href="https://edition.cnn.com/videos/world/2020/12/17/carbon-sinks-explained-c2e-intl-lon-orig.cnn/video/playlists/call-to-earth/">-->
+<!--          this video</a> for more details-->
         </div>
       </div>
     </div>

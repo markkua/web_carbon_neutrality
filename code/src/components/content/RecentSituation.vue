@@ -9,8 +9,7 @@
         <br/><br/>
 
         The interactive figure below shows the combined components of the global carbon budget, including main source of
-        emissions (fossil emission and land-use change emissions) and
-        <a href="https://en.wikipedia.org/wiki/Carbon_sink">carbon sinks </a> (cement, ocean, and land).
+        emissions (fossil emission and land-use change emissions) and carbon sinks(cement, ocean, and land).
         The remaining part then goes into the atmosphere sink.
         <br/><br/>
 
@@ -59,7 +58,7 @@
 
   <h5 class="caption">Green house gas emission in 2000-2020</h5>
   <GlobalGHGMap/>
-  
+
 
 
 </template>
