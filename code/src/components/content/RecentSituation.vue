@@ -14,10 +14,7 @@
         <br/><br/>
 
         Although we can find the emission growth gradually slows down, the global emissions keep growing and have not
-        yet peaked.
-        Considering the sink capacity can not expand in a short temporal period, the world need large and fast
-        reductions in emissions
-        to reach reach net-zero emissions.
+        yet peaked. Also, regarding the track towards the goal of the Paris Agreement, we are far behind.
       </div>
 
       <h5 class="caption">Global carbon emission and carbon sinks in 2000-2020</h5>
