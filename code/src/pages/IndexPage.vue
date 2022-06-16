@@ -1,18 +1,20 @@
 <template>
   <div id="scroll" style="height: 100%">
-    <SessionBanner img-url="./img/pexels-scott-webb-1048033.jpg" title="Introduction" subtitle=""/>
+<!--    <SessionBanner img-url="./img/pexels-scott-webb-1048033.jpg" title="Global warming and carbon neutrality" subtitle=""/>-->
+
+    <CoverPage />
 
     <LimitWidth>
       <SessionIntroduction/>
     </LimitWidth>
 
-    <SessionBanner img-url="https://ourworldindata.org/uploads/2021/01/data_explorer-featured-768x404.png"
+    <SessionBanner img-url="img/unsplash-chimney.jpg"
                    title="Recent Situation" subtitle=""/>
     <!--    <div class="my-content">-->
     <RecentSituation/>
     <!--    </div>-->
 
-    <SessionBanner img-url="https://ourworldindata.org/uploads/2021/01/data_explorer-featured-768x404.png"
+    <SessionBanner img-url="img/unsplash-solar_panel.jpg"
                    title="We are making efforts" subtitle=""/>
     <!--    <div class="my-content">-->
     <MakingEfforts/>
@@ -31,6 +33,7 @@
 
 <script>
 import {defineComponent} from 'vue'
+import CoverPage from "components/util/CoverPage";
 import SessionBanner from "components/util/SessionBanner";
 import SessionIntroduction from "components/content/SessionIntroduction";
 import RecentSituation from "components/content/RecentSituation";
@@ -45,7 +48,7 @@ export default defineComponent({
   components: {
     SessionBanner,
     LimitWidth,
-
+    CoverPage,
     SessionIntroduction,
     RecentSituation,
     MakingEfforts,
