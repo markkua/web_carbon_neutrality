@@ -89,8 +89,8 @@ export default {
       year: "2018",
       color_stairs: [
         "#fff176", "#ffeb3b", "#ffca28",
-        "#ffb300", "#ff8f00", "#fb8c00",
-        "#f57c00", "#e64a19", "#bf360c",
+        "#ffb300", "#ff8f00", "#ff5722",
+        "#e64a19", "#d84315", "#bf360c",
       ],
       data_steps_dict: {
         "co2_per_capita": [2.5, 5, 7.5, 10, 15, 20, 25, 30],
