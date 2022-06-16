@@ -21,11 +21,11 @@
   <div class="row" style="background-color: #e0e0e0" v-if="show" id="source">
     <div class="column">
       <span style="color: #505050; font-size: 120%">Data Source:</span>
-<!--      <div class="text-body2">-->
-<!--        <a href="https://www.imf.org/external/pubs/ft/weo/disclaim.htm"-->
-<!--        >IMF World Economic Outlook Database</a-->
-<!--        >-->
-<!--      </div>-->
+      <div class="text-body2">
+        <a href="https://essd.copernicus.org/articles/14/1917/2022/essd-14-1917-2022.pdf"
+        >Global Carbon Budget 2021</a
+        >
+      </div>
 <!--      <div class="text-body2">-->
 <!--        <a-->
 <!--          href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx"-->
