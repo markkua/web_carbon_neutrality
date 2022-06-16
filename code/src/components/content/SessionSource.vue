@@ -22,10 +22,18 @@
     <div class="column">
       <span style="color: #505050; font-size: 120%">Data Source:</span>
       <div class="text-body2">
-        <a href="https://essd.copernicus.org/articles/14/1917/2022/essd-14-1917-2022.pdf"
-        >Global Carbon Budget 2021</a
-        >
+        <a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions#global-average-temperatures-have-increased-by-more-than-1-c-since-pre-industrial-times">Our World in Data - Average Temperature Anomaly</a>
       </div>
+      <div class="text-body2">
+        <a href="https://essd.copernicus.org/articles/14/1917/2022/essd-14-1917-2022.pdf">Global Carbon Budget 2021</a>
+      </div>
+      <div class="text-body2">
+        <a href="https://github.com/owid/co2-data">Our World in Data - Data on CO2 and Greenhouse Gas Emissions</a>
+      </div>
+      <div class="text-body2">
+        <a href="https://ourworldindata.org/renewable-energy">Our World in Data - Renewable energy</a>
+      </div>
+
 <!--      <div class="text-body2">-->
 <!--        <a-->
 <!--          href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx"-->
@@ -51,38 +59,41 @@
     <q-separator vertical inset color="white" />
     <div class="column">
       <span style="color: #505050; font-size: 120%">Software:</span>
-<!--      <div class="text-body2">-->
-<!--        Data Processing: <a href="https://pandas.pydata.org/">Pandas</a>,-->
-<!--        <a href="https://geopandas.org/">GeoPandas</a>,-->
-<!--        <a herf="https://www.qgis.org/en/site/">QGIS</a>-->
-<!--      </div>-->
-<!--      <div class="text-body2">-->
-<!--        Front-end design and development:-->
-<!--        <a href="https://v3.vuejs.org/">Vue</a>,-->
-<!--        <a href="https://quasar.dev/">Quasar</a>,-->
-<!--        <a href="https://animejs.com/">animejs</a>-->
-<!--      </div>-->
-<!--      <div class="text-body2">-->
-<!--        Visualization:-->
-<!--        <a href="https://docs.mapbox.com/mapbox-gl-js/api/">Mapbox</a>,-->
-<!--        <a href="https://globe.gl/">Globe.GL</a>,-->
-<!--        <a href="https://d3js.org/">D3.js</a>,-->
-<!--        <a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a>,-->
-<!--        <a href="https://flourish.studio/">Flourish</a>-->
-<!--      </div>-->
+      <div class="text-body2">
+        Data Processing:
+        <a href="https://www.python.org">Python</a>,
+        <a href="https://pandas.pydata.org/">Pandas</a>,
+        <a herf="https://www.qgis.org/en/site/">QGIS</a>
+      </div>
+      <div class="text-body2">
+        Website Framework:
+        <a href="https://v3.vuejs.org/">Vue</a>,
+        <a href="https://quasar.dev/">Quasar</a>
+      </div>
+      <div class="text-body2">
+        Visualization:
+        <a href="https://docs.mapbox.com/mapbox-gl-js/api/">Mapbox</a>,
+        <a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a>
+      </div>
     </div>
+
     <q-separator vertical inset color="white" />
     <div class="column">
-      <span style="color: #505050; font-size: 120%">Graphic: </span>
+      <span style="color: #505050; font-size: 120%">Media: </span>
       <div class="text-body2">
         Images:
 <!--        <a href="https://www.flaticon.com/">Flaticon</a>,-->
         <a href="https://www.pexels.com/">Pexels</a>,
-        <a href="https://unsplash.com/">Unsplash</a>
+        <a href="https://unsplash.com/">Unsplash</a>,
+        <a href="https://pixabay.com/">Pixabay</a>
       </div>
       <div class="text-body2">
         Icons:
-        <a href="https://www.flaticon.com/free-icons/carbon-neutral" title="https://www.flaticon.com/free-icons/carbon-neutral">Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/carbon-neutral" title="https://www.flaticon.com/free-icons/carbon-neutral">Freepik-Flaticon</a>
+      </div>
+      <div class="text-body2">
+        Videos:
+        <a href="https://www.youtube.com">Youtube</a>
       </div>
 <!--      <div class="text-body2">-->
 <!--        Videos:-->
