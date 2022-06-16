@@ -98,6 +98,10 @@
         Videos:
         <a href="https://www.youtube.com">Youtube</a>
       </div>
+      <div class="text-body2">
+        Color:
+        <a href="https://www.materialpalette.com/colors">Material Design Colors</a>
+      </div>
 <!--      <div class="text-body2">-->
 <!--        Videos:-->
 <!--        <a href="https://www.pexels.com/">Pexels</a>,-->
