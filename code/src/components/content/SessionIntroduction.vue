@@ -10,7 +10,7 @@
       <img src="img/carbon_cycle_schematic.png" width="80%" alt="carbon cycle schematic">
       <figcaption>Schematic representation of the overall perturbation of the global carbon cycle caused by
         anthropogenic activities, averaged globally for the decade 2011–2020.
-        <a href="https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021">(source)</a>
+        <small><a href="https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021">(source)</a></small>
       </figcaption>
     </figure>
 
@@ -104,9 +104,6 @@
             </li>
             <li>
               Electrification: using electrical energy, ideally from non-emitting sources, rather than combustion.
-            </li>
-            <li>
-              ...
             </li>
           </ul>
 
