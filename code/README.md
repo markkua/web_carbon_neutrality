@@ -1,8 +1,12 @@
 # carbon_neutrality (code)
 
-cartography_lab
+Cartography lab project, 2022 FS.
 
-## Install the dependencies
+Author: Bingxin Ke
+
+
+## Install
+### Install the dependencies
 ```bash
 yarn
 # or
@@ -40,7 +44,5 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
 
-
-## Image source
 
 
