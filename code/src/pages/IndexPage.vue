@@ -20,8 +20,8 @@
     <MakingEfforts/>
     <!--    </div>-->
 
-    <SessionBanner img-url="https://ourworldindata.org/uploads/2021/01/data_explorer-featured-768x404.png"
-                   title="What can we do" subtitle=""/>
+    <SessionBanner img-url="img/pixabay-trees.jpg"
+                   title="What else can we do" subtitle=""/>
     <!--    <div class="my-content">-->
     <WhatCanWeDo/>
     <!--    </div>-->
