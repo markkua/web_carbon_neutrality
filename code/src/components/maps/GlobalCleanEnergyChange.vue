@@ -181,8 +181,8 @@ export default {
     var map = new mapboxgl.Map({
       container: "globalRenewableChangeMap",
       style: this.style_url,
-      center: [60, 30.544023],
-      zoom: 3,
+      center: [30, 30.544023],
+      zoom: 2,
       maxBounds: bounds, // Sets bounds as max
     });
 
