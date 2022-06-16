@@ -50,8 +50,7 @@
       planet,
       global temperature increase needs to be limited to 1.5°C above pre-industrial levels.
       Currently, the Earth is already about 1.1°C warmer than it was in the late 1800s, and emissions continue to rise.
-      To keep global warming to no more than 1.5°C – as called for in
-      <a href="https://www.un.org/en/climatechange/paris-agreement">the Paris Agreement</a>
+      To keep global warming to no more than 1.5°C – as called for in the Paris Agreement
       – emissions need to be reduced by 45% by 2030 and reach net zero by 2050.
     </div>
     <div>
@@ -59,8 +58,30 @@
       <TempAnomalyLineChart/>
     </div>
 
+    <h4>The Paris agreement</h4>
+    <div class="text-body1">
+      To tackle climate change and its negative impacts, world leaders at the UN Climate Change Conference (COP21)
+      in Paris reached a breakthrough on 12 December 2015:
+      <a href="https://www.un.org/en/climatechange/paris-agreement">the historic Paris Agreement</a>.
+      The Agreement is a legally binding international treaty.
+      It entered into force on 4 November 2016. Today, 193 Parties (192 countries plus the European Union) have joined the Paris Agreement.
+      <br/>
+      The Agreement sets long-term goals to guide all nations:
+      <ul>
+        <li>
+          substantially reduce global greenhouse gas emissions to limit the global temperature increase in this century to 2°C while pursuing efforts to limit the increase even further to 1.5°C;
+        </li>
+        <li>
+          review countries’ commitments every five years;
+        </li>
+        <li>
+          provide financing to developing countries to mitigate climate change, strengthen resilience and enhance abilities to adapt to climate impacts.
+        </li>
+      </ul>
+    </div>
 
-    <h4 class="caption">How to achieve carbon neutralization</h4>
+
+    <h4>How to achieve carbon neutralization</h4>
     <h6 class="caption">
       First reduce what you can, then offset the remainder:
     </h6>
@@ -69,11 +90,14 @@
       <div class="half_card">
         <h5 class="caption">Reducing emissions</h5>
         <div class="text-body1">
-          Reducing green house gas emissions is the most straightforward and powerful measures towards carbon neutrality.
-          One of the strongest arguments for reducing greenhouse gas emissions is that it will often save money. For example:
+          Reducing green house gas emissions is the most straightforward and powerful measures towards carbon
+          neutrality.
+          One of the strongest arguments for reducing greenhouse gas emissions is that it will often save money. For
+          example:
           <ul>
             <li>
-              Limiting energy usage and emissions from transportation, as well as from buildings, equipment, animals and processes.
+              Limiting energy usage and emissions from transportation, as well as from buildings, equipment, animals and
+              processes.
             </li>
             <li>
               Obtaining electricity and other forms of energy from zero or low carbon energy sources.
@@ -86,18 +110,18 @@
             </li>
           </ul>
 
-<!--          Reducing carbon emissions can be done by moving towards energy sources and industry processes that produce-->
-<!--          less greenhouse gases,-->
-<!--          thereby transitioning to a low-carbon economy. Shifting towards the use of renewable energy such as wind,-->
-<!--          geothermal, and solar power, as well as nuclear power reduces greenhouse gas emissions.-->
-<!--          Although both renewable and non-renewable energy production produce carbon emissions in some form, renewable-->
-<!--          sources produce negligible to almost zero carbon emissions. Transitioning to a low-carbon economy would also-->
-<!--          mean-->
-<!--          making changes to current industrial and agricultural processes to reduce carbon emissions, for example, diet-->
-<!--          changes to livestock such as cattle can potentially reduce methane production by 40%. Carbon projects and-->
-<!--          emissions trading are often used to reduce carbon emissions, and carbon dioxide can even sometimes be-->
-<!--          prevented-->
-<!--          from entering the atmosphere entirely (such as by carbon scrubbing).-->
+          <!--          Reducing carbon emissions can be done by moving towards energy sources and industry processes that produce-->
+          <!--          less greenhouse gases,-->
+          <!--          thereby transitioning to a low-carbon economy. Shifting towards the use of renewable energy such as wind,-->
+          <!--          geothermal, and solar power, as well as nuclear power reduces greenhouse gas emissions.-->
+          <!--          Although both renewable and non-renewable energy production produce carbon emissions in some form, renewable-->
+          <!--          sources produce negligible to almost zero carbon emissions. Transitioning to a low-carbon economy would also-->
+          <!--          mean-->
+          <!--          making changes to current industrial and agricultural processes to reduce carbon emissions, for example, diet-->
+          <!--          changes to livestock such as cattle can potentially reduce methane production by 40%. Carbon projects and-->
+          <!--          emissions trading are often used to reduce carbon emissions, and carbon dioxide can even sometimes be-->
+          <!--          prevented-->
+          <!--          from entering the atmosphere entirely (such as by carbon scrubbing).-->
         </div>
       </div>
       <div class="half_card">
@@ -106,25 +130,26 @@
 
           The use of Carbon offsets aims to neutralize a certain volume of greenhouse gas emissions by funding projects
           which should cause an equivalent reduction of greenhouse gas emissions somewhere else, such as tree planting.
-          Offsetting can be done by supporting a responsible carbon project, or by buying carbon offsets or carbon credits.
+          Offsetting can be done by supporting a responsible carbon project, or by buying carbon offsets or carbon
+          credits.
           Carbon offsetting is also a tool for several local authorities in the world.
-<!--          -->
-<!--          Balancing carbon dioxide emissions with carbon offsets — the process of reducing or avoiding greenhouse gas-->
-<!--          emissions-->
-<!--          or removing carbon dioxide from the atmosphere to make up for emissions elsewhere.-->
-<!--          If the total greenhouse gases emitted is equal to the total amount avoided or removed, then the two effects-->
-<!--          cancel-->
-<!--          each other out and the net emissions are 'neutral'.-->
-<!--          &lt;!&ndash;      TODO &ndash;&gt;-->
-<!--          <br />-->
-<!--          Carbon sinks:-->
-<!--          Carbon sinks are vast ecosystems that absorb CO2. They regulate the climate and stop global warming. As they-->
-<!--          are-->
-<!--          exploited, many are releasing their carbon stores.-->
+          <!--          -->
+          <!--          Balancing carbon dioxide emissions with carbon offsets — the process of reducing or avoiding greenhouse gas-->
+          <!--          emissions-->
+          <!--          or removing carbon dioxide from the atmosphere to make up for emissions elsewhere.-->
+          <!--          If the total greenhouse gases emitted is equal to the total amount avoided or removed, then the two effects-->
+          <!--          cancel-->
+          <!--          each other out and the net emissions are 'neutral'.-->
+          <!--          &lt;!&ndash;      TODO &ndash;&gt;-->
+          <!--          <br />-->
+          <!--          Carbon sinks:-->
+          <!--          Carbon sinks are vast ecosystems that absorb CO2. They regulate the climate and stop global warming. As they-->
+          <!--          are-->
+          <!--          exploited, many are releasing their carbon stores.-->
 
-<!--          Check <a-->
-<!--          href="https://edition.cnn.com/videos/world/2020/12/17/carbon-sinks-explained-c2e-intl-lon-orig.cnn/video/playlists/call-to-earth/">-->
-<!--          this video</a> for more details-->
+          <!--          Check <a-->
+          <!--          href="https://edition.cnn.com/videos/world/2020/12/17/carbon-sinks-explained-c2e-intl-lon-orig.cnn/video/playlists/call-to-earth/">-->
+          <!--          this video</a> for more details-->
         </div>
       </div>
     </div>
@@ -171,7 +196,7 @@ img {
 
 .caption {
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 </style>
