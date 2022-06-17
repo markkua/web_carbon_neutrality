@@ -2,7 +2,9 @@
   <div class="cover">
     <div class="callout">
       <!-- <h1>Global trade</h1> -->
-      <h2>Carbon neutrality <br /> where are we on the way to it?</h2>
+      <h2 class="cover-title">Carbon Neutrality <br/>
+        <small>Where We are on the Way to it?</small>
+      </h2>
 
 
     </div>
@@ -44,7 +46,7 @@ export default {
 /*}*/
 }
 
-h2 {
+.cover-title {
   text-align: center;
   font-weight: bold;
   color: #4db6ac;

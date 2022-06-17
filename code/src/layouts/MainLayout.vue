@@ -13,7 +13,7 @@
             />
           </q-icon>
 
-          Carbon Neutrality -- where are we on the way to it?
+          Carbon Neutrality - Where We are on the Way to it？
 
         </q-toolbar-title>
       </q-toolbar>
