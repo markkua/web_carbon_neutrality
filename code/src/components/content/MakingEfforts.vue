@@ -11,7 +11,7 @@
           Many countries and regions have announced dates by which they want to be carbon neutral, with many of them
           targeting the year 2050. Some of them have already written the pledge into policy and even laws.
           <br/><br/>
-          Not only countries and regions, but also companies and organizations are taking active reactions towards
+          Not only countries and regions but also companies and organizations are taking active reactions towards
           carbon
           neutrality, including many unicorn corporations.
           <br/><br/>
@@ -25,15 +25,15 @@
     <LimitWidth>
       <div class="text-body1">
         This interactive map shows the year-on-year growth rate of CO<sub>2</sub> emissions.
-        The value is the difference between current year and previous year (e.g. change shown in year 2020 is the
+        The value is the difference between the current year and the previous year (e.g. change shown in the year 2020 is the
         difference between emission in 2020 and emission in 2019)
         <br/><br/>
-        Considering the sink capacity can not expand in a short temporal period, the world need large and fast
-        reductions in emissions to reach reach net-zero emissions.
+        Considering the sink capacity can not expand in a short temporal period, the world needs large and fast
+        reductions in emissions to reach net-zero emissions.
         <br/><br/>
-        Towards carbon neutrality, our society not only pledges, but also takes actual measures to control carbon
-        emission. At the mean time, more and more people are getting aware of this problem and start to reduce their
-        carbon footprint. From this map we can see how much efforts have been made in different countries and regions.
+        Towards carbon neutrality, our society not only pledges but also takes actual measures to control carbon
+        emissions. In the meantime, more and more people are getting aware of this problem and are starting to reduce their
+        carbon footprint. From this map, we can see how much effort have been made in different countries and regions.
       </div>
     </LimitWidth>
     <h5 class="caption">CO<sub>2</sub> emission change in 2001-2020 (minus previous year)</h5>

@@ -64,7 +64,7 @@
       in Paris reached a breakthrough on 12 December 2015:
       <a href="https://www.un.org/en/climatechange/paris-agreement">the historic Paris Agreement</a>.
       The Agreement is a legally binding international treaty.
-      It entered into force on 4 November 2016. Today, 193 Parties (192 countries plus the European Union) have joined the Paris Agreement.
+      It entered into force on 4 November 2016. Today, 193 parties (192 countries plus the European Union) have joined the Paris Agreement.
       <br/>
       The Agreement sets long-term goals to guide all nations:
       <ul>
@@ -90,7 +90,7 @@
       <div class="half_card">
         <h5 class="caption">Reducing emissions</h5>
         <div class="text-body1">
-          Reducing green house gas emissions is the most straightforward and powerful measures towards carbon
+          Reducing greenhouse gas emissions is the most straightforward and powerful measure toward carbon
           neutrality.
           One of the strongest arguments for reducing greenhouse gas emissions is that it will often save money. For
           example:

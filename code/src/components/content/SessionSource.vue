@@ -22,6 +22,9 @@
     <div class="column">
       <span style="color: #505050; font-size: 120%">Data Source:</span>
       <div class="text-body2">
+        <a href="https://osm-boundaries.com">OSM - Administrative Boundaries</a>
+      </div>
+      <div class="text-body2">
         <a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions#global-average-temperatures-have-increased-by-more-than-1-c-since-pre-industrial-times">Our World in Data - Average Temperature Anomaly</a>
       </div>
       <div class="text-body2">
@@ -36,28 +39,6 @@
       <div class="text-body2">
         <a href="https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019">Greenhouse gas reporting: conversion factors 2019</a>
       </div>
-
-<!--      <div class="text-body2">-->
-<!--        <a-->
-<!--          href="https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx"-->
-<!--        >UNCTAD STAT</a-->
-<!--        >-->
-<!--      </div>-->
-<!--      <div class="text-body2">-->
-<!--        <a-->
-<!--          href="https://marketplace.officialstatistics.org/ais-weekly-port-calls"-->
-<!--        >AIS: Weekly Port Calls</a-->
-<!--        >-->
-<!--      </div>-->
-<!--      <div class="text-body2">-->
-<!--        <a href="https://comtrade.un.org/data">UN Comtrade Database</a>-->
-<!--      </div>-->
-<!--      <div class="text-body2">-->
-<!--        <a-->
-<!--          href="https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/export/"-->
-<!--        >OPENDATASOFT</a-->
-<!--        >-->
-<!--      </div>-->
     </div>
     <q-separator vertical inset color="white" />
     <div class="column">
@@ -96,7 +77,7 @@
       </div>
       <div class="text-body2">
         Videos:
-        <a href="https://www.youtube.com">Youtube</a>
+        <a href="https://www.youtube.com">YouTube</a>
       </div>
       <div class="text-body2">
         Color:

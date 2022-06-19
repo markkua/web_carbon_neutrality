@@ -7,8 +7,8 @@
       <div class="text-body1">
         Climate change is a global problem, and no country alone can fix it. Working out who is responsible is not as
         simple
-        as it seems, and it's a draft question. Plaguing this question in the international politics no longer helps
-        solving the problem.
+        as it seems, and it's a draft question. Plaguing this question in international politics no longer helps with solving
+        solve the problem.
         <br/><br/>
         We don't have much time left. Everybody needs to do their best, from <b>today</b> instead of tomorrow.
       </div>
@@ -24,30 +24,30 @@
         According to 2017 <a href="http://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf">study</a>
         from researchers at Lund University and the University of British Columbia,
         going carless for a year could save about 2.6 tons of carbon dioxide. So, <b>try taking a train, bus or better yet, ride a bike.</b>
-        One may argue that driving electric cars has no emission. However, the emission doesn't disappear, it's shifted to
+        One may argue that driving electric cars has no emissions. However, the emission doesn't disappear. It's shifted to
         the power station. Considering the percentage of clean energy we are using, saving energy by driving less is still a better option.
         <br/><br/>
 
         <b>On Your Plate.</b>
-        Firstly, <b>don't waste food</b>. Food production accounts for one quarter - 26% - of global green house gas emission.
+        Firstly, <b>don't waste food</b>. Food production accounts for one quarter - 26% - of global greenhouse gas emission.
         Food waste is responsible for 6% of global greenhouse gas emissions
         <small>(<a href="https://ourworldindata.org/environmental-impacts-of-food#food-waste-is-responsible-for-6-of-global-greenhouse-gas-emissions">source</a>)</small>.
 
         Secondly, <b>reduce meet consumption</b>.
-        Overall, eating low down the food chain as often as you can is a probably a good way to reduce your carbon footprint and stay healthy.
+        Overall, eating low down the food chain as often as you can is probably a good way to reduce your carbon footprint and stay healthy.
         Check <a href="http://studymaps.ethz.ch/sustainability-atlas/meat-consumption">this atlas</a> for more details.
         <br/><br/>
 
         <b>In Your Home.</b>
         You can <b>save much energy</b> in your daily life by simple actions, such as turning down the heat,
-        turning off lights when you leave, replacing with LED lights, replacing old fridges.
-        On the other hand, <b>recycling as much as possible</b> not only saves materials, but also reduces carbon emissions
+        turning off lights when you leave, replacing them with LED lights, replacing old fridges.
+        On the other hand, <b>recycling as much as possible</b> not only saves materials but also reduces carbon emissions
         of the factory.
         <br/><br/>
 
         <b>What You Do.</b>
         In addition to changing your day-to-day habits, exercising your rights as a customer or a citizen is one of
-        the most significant things you can do to help the planet, for example, supporting sustainable products, environment-friendly business and politics.
+        the most significant things you can do to help the planet, for example supporting sustainable products, environment-friendly business and politics.
 
         <br/><br/>
         Try to calculate your carbon footprint using this
