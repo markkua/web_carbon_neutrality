@@ -1,8 +1,10 @@
-# carbon_neutrality (code)
+# Carbon neutrality -- Where We are on the Way to it?
 
 Cartography lab project, 2022 FS.
 
 Author: Bingxin Ke
+
+Deployed at [markkua.github.io/carbon_neutrality.github.io](https://markkua.github.io/carbon_neutrality.github.io/)
 
 
 ## Install
