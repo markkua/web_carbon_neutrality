@@ -21,7 +21,7 @@
     <!--    </div>-->
 
     <SessionBanner img-url="img/pixabay-trees.jpg"
-                   title="What else can we do" subtitle=""/>
+                   title="What else can we do?" subtitle=""/>
     <!--    <div class="my-content">-->
     <WhatCanWeDo/>
     <!--    </div>-->

@@ -24,7 +24,7 @@
 
 
   <LimitWidth>
-    <h4>Who are the "big players" of carbon emissions</h4>
+    <h4>Who are the "big players" of carbon emissions?</h4>
     <div>
       <div style="float: right">
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ipVxxxqwBQw"

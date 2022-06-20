@@ -13,7 +13,7 @@
         We don't have much time left. Everybody needs to do their best, from <b>today</b> instead of tomorrow.
       </div>
 
-      <h4>What can we do as individuals</h4>
+      <h4>What can we do as individuals?</h4>
 
       <div class="text-body1">
         <div style="float: right; width: 40%">

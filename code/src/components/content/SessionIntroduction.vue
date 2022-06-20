@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>What is carbon neutralization</h4>
+    <h4>What is carbon neutrality?</h4>
     <div class="text-body1">
       Carbon neutrality is a state of net-zero carbon dioxide emissions, meaning that any carbon dioxide released into
       the atmosphere from human activities is balanced by an equivalent amount being removed.
@@ -14,7 +14,7 @@
       </figcaption>
     </figure>
 
-    <h4>Why carbon neutralization</h4>
+    <h4>Why carbon neutrality?</h4>
     <div class="text-body1">
       Global warming, the gradual heating of Earth's surface, oceans and atmosphere, is caused by human activity,
       primarily the burning of fossil fuels that pump carbon dioxide (CO<sub>2</sub>), methane and other greenhouse
@@ -81,7 +81,7 @@
     </div>
 
 
-    <h4>How to achieve carbon neutralization</h4>
+    <h4>How to achieve carbon neutrality?</h4>
     <h6 class="caption">
       First reduce what you can, then offset the remainder:
     </h6>
